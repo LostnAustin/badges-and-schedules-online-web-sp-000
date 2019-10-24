@@ -42,4 +42,3 @@ puts " #{batch_badge_creator}"
 puts "#{badges_and_room_assignments}"
 end
 #puts "#{assign_rooms}"
-
