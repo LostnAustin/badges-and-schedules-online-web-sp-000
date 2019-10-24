@@ -38,6 +38,8 @@ def printer(attendees)
   #  .push("#{attendees}")
 
 puts room_assignment
+end
+puts batch_badge_creator
 
 #puts "#{badges_and_room_assignments}"
 end
