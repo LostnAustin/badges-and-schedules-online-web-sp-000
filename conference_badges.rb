@@ -33,7 +33,7 @@ end
 #You'll need to iterate over your array of room assignments in order to puts out each individual assignment.
 
 def printer
-  badges_and_room_assignments = []
+  
   assign_rooms.each do |attendees|
     badges_and_room_assignments.push("#{attendees}")
 end
