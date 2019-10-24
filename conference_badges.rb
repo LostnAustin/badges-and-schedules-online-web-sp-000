@@ -42,5 +42,5 @@ end
 return batch_badge_creator + badges_and_room_assignments
 #puts "#{badges_and_room_assignments}"
 #puts "#{assign_rooms}"
-return printer
+
 end
