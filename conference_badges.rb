@@ -38,7 +38,8 @@ def printer
     badges_and_room_assignments.push("#{room_assignment}")
 end
 
-puts " #{batch_badge_creator}"
-puts "#{badges_and_room_assignments}"
+#puts " #{batch_badge_creator}"
+#puts "#{badges_and_room_assignments}"
+badges_and_room_assignments
 end
 #puts "#{assign_rooms}"
