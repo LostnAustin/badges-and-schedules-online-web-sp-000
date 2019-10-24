@@ -44,5 +44,5 @@ def printer(attendees)
       puts badge
       end
 #puts "#{badges_and_room_assignments}"
-  end
+    end
 #puts "#{assign_rooms}"
