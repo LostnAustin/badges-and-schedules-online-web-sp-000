@@ -39,7 +39,7 @@ def printer(attendees)
 
 puts room_assignment
 end
-puts batch_badge_creator
+puts batch_badge_creator(names)
 
 #puts "#{badges_and_room_assignments}"
 end
