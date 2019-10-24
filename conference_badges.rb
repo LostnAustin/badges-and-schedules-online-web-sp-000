@@ -33,15 +33,13 @@ end
 #You'll need to iterate over your array of room assignments in order to puts out each individual assignment.
 
 def printer
-#  puts "#{batch_badge_creator}"
   badges_and_room_assignments = []
   assign_rooms.each do |room_assignment|
     badges_and_room_assignments.push("#{room_assignment}")
-
 end
 
 puts " #{batch_badge_creator}"
 puts "#{badges_and_room_assignments}"
+end
 #puts "#{assign_rooms}"
 
-end
