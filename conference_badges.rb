@@ -35,8 +35,8 @@ end
 def printer(attendees)
 #  puts "#{batch_badge_creator}"
   badges_and_room_assignments = []
-  assign_rooms.each do |room_assignments|
-    badges_and_room_assignments.push("#{room_assignments}+ #{batch_badge_creator}")
+  assign_rooms.each do |room_assignment|
+    badges_and_room_assignments.push("#{room_assignment}")
 
 end
 puts "#{badges_and_room_assignments}"
