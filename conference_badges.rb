@@ -32,7 +32,7 @@ end
  #assignments, how can you print out each assignment?
 #You'll need to iterate over your array of room assignments in order to puts out each individual assignment.
 
-def printer(attendees)
+def printer
 #  puts "#{batch_badge_creator}"
   badges_and_room_assignments = []
   assign_rooms.each do |room_assignment|
